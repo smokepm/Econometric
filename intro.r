@@ -1,3 +1,5 @@
-c <- (1:10)
+library(readxl)
 
-print(c)
+data <- read_excel("files/foodexp.xls")
+
+head(data, 5)
